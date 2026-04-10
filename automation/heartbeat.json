@@ -1,0 +1,21 @@
+{
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:00:00Z",
+  "version": "1.2.3",
+  "environment": "production",
+  "dependencies": {
+    "api_server": {
+      "status": "healthy",
+      "response_time_ms": 120
+    },
+    "database": {
+      "status": "healthy",
+      "connection_count": 10
+    }
+  },
+  "metrics": {
+    "cpu_usage": 0.15,
+    "memory_usage": 0.60,
+    "active_users": 125
+  }
+}
